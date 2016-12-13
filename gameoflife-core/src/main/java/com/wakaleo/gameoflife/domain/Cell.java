@@ -4,9 +4,13 @@ public enum Cell {
     LIVE_CELL("*"), DEAD_CELL(".");
 
     private String symbol;
-private String pruebilla;
+private String prueba;
 
     private Cell(final String initialSymbol) {
+while(true){
+prueba="a";
+}
+
         this.symbol = initialSymbol;
     }
 
