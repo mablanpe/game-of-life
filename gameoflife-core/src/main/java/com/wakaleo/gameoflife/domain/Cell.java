@@ -4,13 +4,8 @@ public enum Cell {
     LIVE_CELL("*"), DEAD_CELL(".");
 
     private String symbol;
-private String prueba;
 
     private Cell(final String initialSymbol) {
-while(true){
-this.prueba="a";
-}
-
         this.symbol = initialSymbol;
     }
 
@@ -33,4 +28,6 @@ this.prueba="a";
     public String getSymbol() {
         return symbol;
     }
+public int absurd(){
+return 0;
 }
