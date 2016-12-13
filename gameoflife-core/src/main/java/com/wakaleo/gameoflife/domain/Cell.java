@@ -8,7 +8,7 @@ private String prueba;
 
     private Cell(final String initialSymbol) {
 while(true){
-prueba="a";
+this.prueba="a";
 }
 
         this.symbol = initialSymbol;
